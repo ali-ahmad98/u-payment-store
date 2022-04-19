@@ -13,7 +13,6 @@ function App() {
     <div className={classes.mainBody}>
       <Router>
         <Navbar />
-
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/product/:prodId" element={<DetailsPage />} />
