@@ -1,0 +1,11 @@
+.mainBody {
+  min-height: 100vh;
+  background-color: aliceblue;
+  padding: 50px 200px;
+}
+
+@media (max-width: 991px) {
+  .mainBody {
+    padding: 30px 30px;
+  }
+}
